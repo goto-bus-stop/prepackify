@@ -1,0 +1,1 @@
+prepack transform for browserify
