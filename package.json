@@ -1,6 +1,6 @@
 {
   "name": "prepackify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "prepack browserify plugin",
   "repository": "https://github.com/kasperlewau/prepackify",
   "author": "Kasper Lewau <lewauu@gmail.com>",
@@ -17,4 +17,3 @@
     "through": "^2.3.8"
   }
 }
-
