@@ -2,11 +2,19 @@
   "name": "prepackify",
   "version": "0.0.0",
   "description": "prepack browserify plugin",
+  "repository": "https://github.com/kasperlewau/prepackify",
+  "author": "Kasper Lewau <lewauu@gmail.com>",
   "main": "index.js",
   "license": "MIT",
+  "keywords": [
+    "prepack",
+    "browserify",
+    "browserify-transform"
+  ],
   "dependencies": {
     "browserify": "^14.3.0",
     "prepack": "^0.2.0",
     "through": "^2.3.8"
   }
 }
+
