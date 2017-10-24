@@ -9,11 +9,10 @@
   "keywords": [
     "prepack",
     "browserify",
-    "browserify-transform"
+    "browserify-plugin"
   ],
   "dependencies": {
-    "browserify": "^14.3.0",
     "prepack": "^0.2.0",
-    "through": "^2.3.8"
+    "through2": "^2.0.3"
   }
 }

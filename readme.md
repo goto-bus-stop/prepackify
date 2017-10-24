@@ -1,5 +1,5 @@
 # prepackify
-> prepack transform for browserify
+> prepack plugin for browserify
 
 # install
 ```sh
@@ -9,15 +9,14 @@ $ yarn add prepackify
 
 # use
 ```sh
-$ browserify main.js [-t,-g] prepackify
+$ browserify main.js -p prepackify
 ```
 
 ```js
 const prepackify = require('prepackify');
 
-const b = browserify({
-  transform: [prepackify]
-});
+const b = browserify()
+  .plugin(prepackify, {});
 ```
 
 all opts are forwarded to [prepack](https://github.com/facebook/prepack)
